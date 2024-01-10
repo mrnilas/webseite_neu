@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --grey-green: #607274;
+  --light-beige: #faeed1;
+  --dirty-beige: #ded0b6;
+  --light-brown: #b2a59b;
+  --light-black: #212427;
+  --dark-black: #000;
+  --dirty-white: #fdfdfd;
+
+  --teal: #3e838eff;
+  --cardinal: hsl(345, 73%, 44%);
+  --cardinal-light: hsl(345, 73%, 64%);
+  --african-violet: #b58db6ff;
+  --isabelline: #f9f6f0ff;
+  --smoky-black: #0f1108ff;
+
+  /* Main Contrast Color */
+  --main-contrast: #701f29ff;
+
+  /* Complementary Colors */
+  --dark-neutral: #1a1a1a;
+  --white: #ffffff;
+
+  /* Accent Colors */
+  --blue-accent: #3498dbff;
+  --orange-accent: #ffb400ff;
+
+  /* Neutral Colors */
+  --medium-gray: #808080ff;
+  --light-gray: #e0e0e0ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: var(--light-black);
+  background: var(--dirty-white);
+}
+
+main > p {
+  font-size: 36px;
+  color: var(--african-violet);
+}
+
+main {
+  height: 2500px;
+}
