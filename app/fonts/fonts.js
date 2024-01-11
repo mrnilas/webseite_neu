@@ -18,4 +18,10 @@ const rubikBlack = localFont({
   variable: "--font-rubik-black",
 });
 
-export { rubikBlack, rubikDoodle, rubikFax };
+const dosis = localFont({
+  src: "./Dosis-VariableFont_wght.ttf",
+  display: "swap",
+  variable: "--font-dosis",
+});
+
+export { rubikBlack, rubikDoodle, rubikFax, dosis };

@@ -10,6 +10,7 @@ const Navbar = () => {
 
     const pathname = usePathname()
 
+
     return (
         <>
             <div className="w-full sticky top-0 h-20 topbar-class">

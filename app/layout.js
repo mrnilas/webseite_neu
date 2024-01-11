@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/navigation/navbar";
 import localFont from "next/font/local";
 import Footer from "./components/footer";
+import { rubikBlack, dosis } from "./fonts/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,16 +24,18 @@ const rubikFax = localFont({
   variable: "--font-rubik-fax",
 });
 
-const rubikBlack = localFont({
+/*const rubikBlack = localFont({
   src: "./fonts/Rubik-Black.ttf",
   display: "swap",
   variable: "--font-rubik-black",
-});
+});*/
 
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body className={`${rubikBlack.variable}  ${inter.variable} ${rubikFax.variable}`}>
+      <body
+        className={`${rubikBlack.variable}  ${inter.variable} ${rubikFax.variable} ${dosis.variable}`}
+      >
         <Navbar />
         {children}
         <Footer />

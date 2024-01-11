@@ -2,7 +2,7 @@
   background-color: var(--main-contrast);
   color: var(--dirty-white);
   border-bottom: 2px solid var(--dark-black);
-  opacity: 1;
+  padding: 60px 0;
 }
 
 .active {
@@ -12,6 +12,8 @@
 .link {
   position: relative;
   text-decoration: none;
+  font-family: var(--font-dosis);
+  font-weight: 700;
   /* Default text color */
 }
 .link:hover,
@@ -36,5 +38,3 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-
