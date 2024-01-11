@@ -32,7 +32,7 @@ const rubikBlack = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body className={inter.className}>
+      <body className={`${rubikBlack.variable}  ${inter.variable} ${rubikFax.variable}`}>
         <Navbar />
         {children}
         <Footer />
