@@ -38,3 +38,13 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.rubik {
+  font-family: var(--font-rubik-black);
+  font-size: 24px;
+  transition: ease-in 0.3s;
+}
+
+.rubik:hover {
+  font-family: var(--font-rubik-fax);
+}

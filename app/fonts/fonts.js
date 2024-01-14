@@ -1,10 +1,5 @@
+import { Red_Hat_Text } from "next/font/google";
 import localFont from "next/font/local";
-
-const rubikDoodle = localFont({
-  src: "./RubikDoodleShadow-Regular.ttf",
-  display: "swap",
-  variable: "--font-rubik-doodle",
-});
 
 const rubikFax = localFont({
   src: "./RubikBrokenFax-Regular.ttf",
@@ -24,4 +19,10 @@ const dosis = localFont({
   variable: "--font-dosis",
 });
 
-export { rubikBlack, rubikDoodle, rubikFax, dosis };
+const redHat = localFont({
+  src: "./RedHatText-VariableFont_wght.ttf",
+  display: "swap",
+  variable: "--font-red-hat",
+});
+
+export { rubikBlack, rubikFax, dosis, redHat };

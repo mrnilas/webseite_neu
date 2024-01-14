@@ -50,20 +50,10 @@ body {
   background: var(--dirty-white);
 }
 
-main > p {
-  font-size: 36px;
-  color: var(--african-violet);
-}
-
 main {
   height: 2500px;
 }
-.rubik {
-  font-family: var(--font-rubik-black);
-  font-size: 24px;
-}
 
-.rubik:hover {
-  font-family: var(--font-rubik-fax);
-  font-size: 24px;
+.page-headline {
+  font-size: 48px;
 }
