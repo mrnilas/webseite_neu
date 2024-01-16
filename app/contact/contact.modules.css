@@ -3,3 +3,26 @@
   font-weight: 400;
   font-size: 24px;
 }
+
+.card-banner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h1{
+  font-weight: 700;
+}
+
+.first-text{
+  margin-left: 12.5%;
+  width: fit-content;
+}
+
+.center-text{
+  width: 100%;
+  align-self: center;
+}
