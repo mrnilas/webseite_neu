@@ -51,9 +51,23 @@ body {
 }
 
 main {
-  height: 2500px;
+  min-height: calc(100vh - 81px - 4rem);
+  padding: 24px 48px;
+  align-items: center;
+}
+
+.content-wrapper{
+  width: 80%;
 }
 
 .page-headline {
   font-size: 48px;
+  animation: fadeIn 3s;
 }
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
